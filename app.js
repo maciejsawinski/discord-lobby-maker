@@ -17,6 +17,7 @@ const client = new Discord.Client();
 
 client.once("ready", () => {
   console.log("Bot ready...");
+  client.user.setActivity(`type 'lobby'`);
 });
 
 client.on("message", async (message) => {
@@ -96,7 +97,7 @@ client.on("message", async (message) => {
 
     reactionCollector.on("end", (collected) =>
       console.log(
-        `Lobby watcher ended. Collected ${collected.size} reactions...`
+        `Lobby watcher ended. Collected ${collected.size} reaction(s)...`
       )
     );
   } catch (err) {
