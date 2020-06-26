@@ -1,0 +1,20 @@
+{
+  "name": "discord-lobby-maker",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "https://github.com/maciejsawinski/discord-lobby-maker.git",
+  "author": "maciejsawinski <macsawinski@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon server.js"
+  },
+  "type": "module",
+  "engines": {
+    "node": "^13"
+  }
+}
