@@ -45,6 +45,15 @@ client.on("message", async (message) => {
 
     // prepare game object and players array
     const game = filteredGames[0];
+
+    if (game.name === "custom") {
+      let size = +args[2];
+      if (!Number.isInteger(size)) return;
+      if (size > 10) size = 10;
+
+      game.size = size;
+    }
+
     let players = [message.author.id];
 
     // send an initial lobby message
