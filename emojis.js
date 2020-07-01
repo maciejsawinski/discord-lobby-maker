@@ -12,4 +12,6 @@ export default {
   thumbsUp: "👍",
   thumbsDown: "👎",
   checkMark: "✅",
+  clock: "⏰",
+  smiley: "😍",
 };

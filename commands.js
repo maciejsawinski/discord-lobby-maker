@@ -13,9 +13,11 @@ export const defaultMessage = (supportedGames) => {
       "Available commands:",
       `${supportedGames
         .map((game) => `${game.name} ${game.message}`)
-        .join(
-          "\n"
-        )}\n\nEach lobby is valid for 30 minutes or until lobby creator doesn't remove it`,
+        .join("\n")}\n\n${
+        emojis.clock
+      } Each lobby is valid for 30 minutes or until lobby creator doesn't remove it\n\n${
+        emojis.smiley
+      } [Add Lobbyist to your server](https://discord.com/oauth2/authorize?client_id=715256255714689136&scope=bot&permissions=0 'do it')`,
       true
     );
 };
