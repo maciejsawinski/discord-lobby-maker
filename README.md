@@ -30,7 +30,7 @@ With lobbyist, you can create a game lobby(or a custom one) for your friends to 
 
 ## List of games:
 
-`lol` `tft` `csgo` `fortnite` `valorant` `wow` `dota2` `pubg` `apex` `custom <size> (max 10)`
+`lol` `tft` `csgo` `fortnite` `valorant` `wow` `dota2` `pubg` `apex` `fallguys` `amongus` `custom <size> (max 10)`
 
 # Contact
 

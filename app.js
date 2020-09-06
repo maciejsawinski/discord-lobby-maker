@@ -17,6 +17,7 @@ const client = new Discord.Client();
 
 client.once("ready", () => {
   console.log("Bot ready...");
+  console.log(`Bot available in ${client.guilds.cache.size} guilds`);
   client.user.setActivity(`type 'lobby'`);
 });
 

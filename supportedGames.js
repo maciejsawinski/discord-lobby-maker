@@ -54,6 +54,18 @@ export default [
     message: "",
   },
   {
+    displayName: "Among Us",
+    name: "amongus",
+    size: 10,
+    message: "",
+  },
+  {
+    displayName: "Fall Guys",
+    name: "fallguys",
+    size: 4,
+    message: "",
+  },
+  {
     displayName: "Custom",
     name: "custom",
     message: "<size> (max 10)",
